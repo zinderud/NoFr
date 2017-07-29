@@ -1,0 +1,58 @@
+{
+  "name": "nofr",
+  "version": "1.0.0",
+  "description": "node framework",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "ts-node src/main.ts",
+    "postinstall": "npm start",
+    "test": "mocha -r ts-node/register tests/**/*.spec.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zinderud/NoFr"
+  },
+  "keywords": [
+    "node" 
+  ],
+  "author": "Murat onur",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zinderud/NoFr/issues"
+  },
+  "homepage": "https://github.com/zinderud/NoFr#readme",
+  "dependencies": {
+
+    "body-parser": "^1.17.1",
+    "compression": "^1.7.0",
+    "corejs": "^1.0.0",
+    "express": "^4.15.3",
+    "helmet": "^3.8.1",
+    "mongodb": "^2.2.30"
+  },
+  "devDependencies": {
+     "@types/body-parser": "^1.16.4",
+    "@types/chai": "^3.5.2",
+    "@types/compression": "0.0.33",
+    "@types/express": "^4.0.36",
+    "@types/helmet": "0.0.34",
+    "@types/mocha": "^2.2.41",
+    "@types/mongodb": "^2.2.8",
+    "@types/node": "^7.0.39",
+    "@types/rimraf": "0.0.28",
+    "@types/shelljs": "^0.7.2",
+    "@types/supertest": "^2.0.2",
+    "chai": "^3.5.0",
+    "commitizen": "^2.9.6",
+    "cp": "^0.2.0",
+    "cz-conventional-changelog": "^2.0.0",
+    "mocha": "^3.4.2",
+    "npm": "^4.6.1",
+    "rimraf": "^2.6.1",
+    "shelljs": "^0.7.8",
+    "supertest": "^3.0.0",
+    "ts-node": "^3.3.0",
+    "tslint": "^5.5.0",
+    "typescript": "^2.4.2" 
+  }
+}
