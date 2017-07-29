@@ -15,3 +15,5 @@ export { Delete } from './interfaces/delete';
 
 /* Methods */
 export { bootstrap } from './methods/bootstrap';
+
+export {httpModule} from './http'
